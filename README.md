@@ -15,8 +15,7 @@ To address these risks, I developed the following documentation and technical re
 
 ### Project Files
 * [Security Risk Assessment Report](./Hardening%20Tools%20Report.pdf): Detailed analysis and recommendations for password security, MFA implementation, and firewall configuration.
-* [Cybersecurity Incident Report](./Cybersecurity%20incident%20report%20network%20traffic%20analysis%20(1).pdf): Technical analysis of network traffic logs, specifically investigating ICMP "port unreachable" errors on port 53 (DNS).
+* [Cybersecurity Incident Report](./Network%20hardening%20tools.pdf): Technical analysis of network traffic logs, specifically investigating ICMP "port unreachable" errors on port 53 (DNS).
 
 ## Conclusion
 By implementing NIST password standards, enforcing MFA with biometric confirmation, and configuring strict firewall rules, the organization can significantly reduce its attack surface and protect customer data from future breaches.
-

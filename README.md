@@ -14,7 +14,7 @@ During the network inspection, four major vulnerabilities were discovered:
 To address these risks, I developed technical documentation based on industry standards like NIST. These files contain the detailed analysis and specific hardening recommendations.
 
 ### Project Files
-* [Security Risk Assessment Report](./Security%20risk%20assessment%20report.docx)
+* [Security Risk Assessment Report](./Hardening%20Tools%20Report.pdf)
 * [Cybersecurity Incident Report](./Cybersecurity%20incident%20report%20network%20traffic%20analysis%20(1).pdf)
 
 ## Conclusion

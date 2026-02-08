@@ -1,21 +1,30 @@
-# Network Hardening Tools
+# Network Hardening Tools 🛡️
 
 ## Project Scenario
-In this project, I acted as a security analyst for a social media organization that recently suffered a major data breach compromising customer information. The goal was to perform a security risk assessment and implement strong network hardening practices to prevent future attacks.
+In this project, I acted as a security analyst for a social media organization that recently suffered a major data breach. The goal was to perform a security risk assessment and implement strong network hardening practices.
 
 ## Identified Vulnerabilities
-During the network inspection, four major vulnerabilities were discovered:
-* **Password Sharing:** Employees were sharing credentials, compromising accountability.
-* **Default Credentials:** The database admin password was set to the default factory setting.
-* **Unfiltered Traffic:** Firewalls lacked rules to filter incoming and outgoing network traffic.
-* **Lack of MFA:** Multifactor authentication was not being used to secure access.
+* **Password Sharing:** Employees shared credentials.
+* **Default Credentials:** Database admin password was set to factory default.
+* **Unfiltered Traffic:** Firewalls lacked traffic filtering rules.
+* **Lack of MFA:** Multifactor authentication was not implemented.
 
 ## Hardening Solutions and Analysis
-To address these risks, I developed technical documentation based on industry standards like NIST. These files contain the detailed analysis and specific hardening recommendations.
+Below are the detailed reports. You can read them directly here:
 
-### Project Files
-* [Security Risk Assessment Report](./Hardening%20Tools%20Report.pdf)
-* [Cybersecurity Incident Report](./Cybersecurity%20incident%20report%20network%20traffic%20analysis%20(1).pdf)
+### 1. Security Risk Assessment Report
+Este informe detalla las recomendaciones de seguridad basadas en NIST y MFA.
+
+<p align="center">
+  <embed src="./Hardening%20Tools%20Report.pdf" type="application/pdf" width="100%" height="600px" />
+</p>
+
+### 2. Cybersecurity Incident Report
+Este informe analiza el tráfico de red y el error del puerto 53 (DNS).
+
+<p align="center">
+  <embed src="./Cybersecurity%20incident%20report%20network%20traffic%20analysis%20(1).pdf" type="application/pdf" width="100%" height="600px" />
+</p>
 
 ## Conclusion
-By implementing NIST password standards, enforcing MFA with biometric confirmation, and configuring strict firewall rules, the organization can significantly reduce its attack surface and protect customer data from future breaches.
+Implementing NIST standards and proper firewall configurations is essential to protect customer data and maintain network integrity.

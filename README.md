@@ -1,29 +1,21 @@
 # Network Hardening Tools
 
-## Description
-This project focuses on identifying network vulnerabilities and implementing hardening strategies for a social media organization following a major data breach. The goal is to transition from a reactive security posture to a proactive, multi-layered defense system using industry-standard tools and methodologies.
+## Project Scenario
+[cite_start]In this project, I acted as a security analyst for a social media organization that recently suffered a major data breach compromising customer information[cite: 1, 21]. [cite_start]The goal was to perform a security risk assessment and implement strong network hardening practices to prevent future attacks[cite: 2, 22].
 
 ## Identified Vulnerabilities
-Based on the initial security audit, four critical weaknesses were identified:
-* **Credential Sharing:** Employees were sharing passwords, leading to a loss of accountability.
-* **Default Settings:** The database administrator password was set to a factory default, making it an easy target.
-* **Unfiltered Traffic:** Firewalls lacked specific rules to filter incoming and outgoing network traffic.
-* **Lack of Multi-Factor Authentication (MFA):** Access relied solely on single-factor passwords.
+During the network inspection, four major vulnerabilities were discovered:
+* [cite_start]**Password Sharing:** Employees were sharing credentials, compromising accountability[cite: 2, 23].
+* [cite_start]**Default Credentials:** The database admin password was set to the default factory setting[cite: 18].
+* [cite_start]**Unfiltered Traffic:** Firewalls lacked rules to filter incoming and outgoing network traffic[cite: 2, 25].
+* [cite_start]**Lack of MFA:** Multifactor authentication was not being used to secure access[cite: 2, 24].
 
-## Proposed Hardening Methods
-To mitigate these risks and prevent future breaches, the following methods are recommended:
+## Hardening Solutions and Analysis
+[cite_start]To address these risks, I developed the following documentation and technical reports based on industry standards like NIST[cite: 2, 24].
 
-* **Password Policy (NIST Standards):** Implement password policies focusing on salting and hashing rather than just complexity.
-* **Multi-Factor Authentication (MFA):** Require two or more forms of identity verification, such as biometrics or one-time passwords (OTP).
-* **Firewall Maintenance & Port Filtering:** Establish strict rules to block unused ports and filter traffic to prevent unauthorized access.
-* **Network Access Privileges:** Limit access to sensitive assets based on specific roles, groups, or IP addresses.
+### Project Files
+* [cite_start][Security Risk Assessment Report](./Hardening%20Tools%20Report.pdf): Detailed analysis and recommendations for password security, MFA implementation, and firewall configuration[cite: 21, 26].
+* [cite_start][Cybersecurity Incident Report](./Cybersecurity%20incident%20report%20network%20traffic%20analysis%20(1).pdf): Technical analysis of network traffic logs, specifically investigating ICMP "port unreachable" errors on port 53 (DNS)[cite: 4, 6].
 
-## Technical Incident Analysis
-A specific network incident was analyzed where IT access to the main URL (`Yummierecepesforme.com`) was denied.
-* **The Problem:** Analysis of UDP traffic showed that DNS resolution was failing.
-* **The Cause:** The server returned **ICMP port unreachable** messages for **UDP port 53**.
-* **Resolution Plan:** Verify if Port 53 is being blocked by internal firewall configurations or an external provider.
-
-## Repository Files
-* [Security Risk Assessment Report](Security%20risk%20assessment%20report.docx)
-* [Cybersecurity Incident Report](Cybersecurity%20incident%20report%20network%20traffic%20analysis%20(1).pdf)
+## Conclusion
+[cite_start]By implementing NIST password standards, enforcing MFA with biometric confirmation, and configuring strict firewall rules, the organization can significantly reduce its attack surface and protect customer data from future breaches[cite: 2, 3].

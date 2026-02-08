@@ -1,28 +1,24 @@
-# Network Hardening Tools 🛡️
+# Network Hardening Tools
 
 ## Project Scenario
 In this project, I acted as a security analyst for a social media organization that recently suffered a major data breach. The goal was to perform a security risk assessment and implement strong network hardening practices based on the following identified vulnerabilities:
 
-* **Password Sharing:** Employees shared credentials.
-* **Default Credentials:** Database admin password was set to factory default.
-* **Unfiltered Traffic:** Firewalls lacked traffic filtering rules.
-* **Lack of MFA:** Multifactor authentication was not implemented.
-
-## Hardening Solutions and Analysis
-Below are the official reports developed for this exercise. You can view them directly in your browser:
-
-# Network Hardening Tools and Strategies
-
-This guide outlines essential security hardening tasks, descriptions, and their common use cases for securing network infrastructure.
+* Password Sharing: Employees shared credentials.
+* Default Credentials: Database admin password was set to factory default.
+* Unfiltered Traffic: Firewalls lacked traffic filtering rules.
+* Lack of MFA: Multifactor authentication was not implemented.
 
 ---
 
-## Hardening Overview Table
+## Hardening Solutions and Analysis
+This guide outlines essential security hardening tasks, descriptions, and their common use cases for securing network infrastructure based on the organization's needs.
+
+### Hardening Overview Table
 
 | Security Hardening Task | Description | Common Uses |
 | :--- | :--- | :--- |
 | **Baseline Configurations** | [cite_start]A documented set of specifications within a system used as a basis for future builds, releases, and updates[cite: 1]. | [cite_start]To restore a system to a previous baseline after a network outage or unauthorized changes[cite: 1]. |
-| **Configuration Checks** | [cite_start]Updating the encryption standards for data that is stored in databases[cite: 1]. | [cite_start]To see if there are any unauthorized changes to the system[cite: 1]. |
+| **Configuration Checks** | [cite_start]Updating the encryption standards for data that is stored in databases[cite: 1]. | [cite_start]To see if there any unauthorized changes to the system[cite: 1]. |
 | **Disabling Unused Ports** | [cite_start]Ports can be blocked on firewalls, routers, and servers to prevent potentially dangerous network traffic[cite: 1]. | [cite_start]To prevent malicious actors from entering the network before an incident, or after to prevent future attacks[cite: 1]. |
 | **Encryption (Latest Standards)** | [cite_start]Rules or methods used to conceal outgoing data and decrypt incoming data[cite: 1]. | [cite_start]Implemented regularly to assess if standards are secure or updated after a data breach[cite: 1]. |
 | **Firewall Maintenance** | [cite_start]Checking and updating security configurations regularly to stay ahead of potential threats[cite: 1]. | [cite_start]Updated in response to abnormal traffic or to protect against various DDoS attacks[cite: 1]. |
@@ -45,26 +41,17 @@ This guide outlines essential security hardening tasks, descriptions, and their 
 * [cite_start]**Identity Management**: MFA and strong Password Policies (following NIST standards) significantly reduce the success rate of brute force attacks[cite: 1, 2].
 * [cite_start]**System Recovery**: Baseline configurations and regular backups ensure that a network can be restored quickly following an incident or unauthorized change[cite: 1, 3].
 
+---
+
 ### 1. Security Risk Assessment Report
 This document covers the hardening tools selected (NIST, MFA, Firewall rules) and the justification for their implementation.
 
-<p align="center">
-  <object data="./Hardening%20Tools%20Report.pdf" type="application/pdf" width="100%" height="600px">
-    <p>Your browser does not support viewing PDFs directly. <a href="./Hardening%20Tools%20Report.pdf">Click here to download the report.</a></p>
-  </object>
-</p>
-
----
+[Link to Hardening Tools Report](./Hardening%20Tools%20Report.pdf)
 
 ### 2. Cybersecurity Incident Report (Network Traffic Analysis)
-This report includes some of the better hardening tools youe¿ can use up to date
+This report includes a detailed analysis of network traffic and the implementation of real-time monitoring tools.
 
-
-<p align="center">
-  <object data="./Cybersecurity%20incident%20report%20network%20traffic%20analysis%20(1).pdf" type="application/pdf" width="100%" height="600px">
-    <p>Your browser does not support viewing PDFs directly. <a href="./Cybersecurity%20incident%20report%20network%20traffic%20analysis%20(1).pdf">Click here to download the report.</a></p>
-  </object>
-</p>
+[Link to Incident Report](./Cybersecurity%20incident%20report%20network%20traffic%20analysis%20(1).pdf)
 
 ## Conclusion
 The implementation of these hardening methods significantly reduces the organization's attack surface and protects customer data from future breaches.

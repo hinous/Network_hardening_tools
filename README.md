@@ -11,11 +11,11 @@ During the network inspection, four major vulnerabilities were discovered:
 * **Lack of MFA:** Multifactor authentication was not being used to secure access.
 
 ## Hardening Solutions and Analysis
-To address these risks, I developed the following documentation and technical reports based on industry standards like NIST.
+To address these risks, I developed technical documentation based on industry standards like NIST. These files contain the detailed analysis and specific hardening recommendations.
 
 ### Project Files
-* [Hardening Tools ](./Hardening%20Tools%20Report.pdf): Detailed analysis and recommendations for password security, MFA implementation, and firewall configuration.
-* [Cybersecurity Incident Report](./Network%20hardening%20tools.pdf): Technical analysis of incident
+* [Security Risk Assessment Report](./Security%20risk%20assessment%20report.docx)
+* [Cybersecurity Incident Report](./Cybersecurity%20incident%20report%20network%20traffic%20analysis%20(1).pdf)
 
 ## Conclusion
 By implementing NIST password standards, enforcing MFA with biometric confirmation, and configuring strict firewall rules, the organization can significantly reduce its attack surface and protect customer data from future breaches.

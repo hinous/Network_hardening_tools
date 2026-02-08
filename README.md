@@ -14,8 +14,8 @@ During the network inspection, four major vulnerabilities were discovered:
 To address these risks, I developed the following documentation and technical reports based on industry standards like NIST.
 
 ### Project Files
-* [Security Risk Assessment Report](./Hardening%20Tools%20Report.pdf): Detailed analysis and recommendations for password security, MFA implementation, and firewall configuration.
-* [Cybersecurity Incident Report](./Network%20hardening%20tools.pdf): Technical analysis of network traffic logs, specifically investigating ICMP "port unreachable" errors on port 53 (DNS).
+* [Hardening Tools ](./Hardening%20Tools%20Report.pdf): Detailed analysis and recommendations for password security, MFA implementation, and firewall configuration.
+* [Cybersecurity Incident Report](./Network%20hardening%20tools.pdf): Technical analysis of incident
 
 ## Conclusion
 By implementing NIST password standards, enforcing MFA with biometric confirmation, and configuring strict firewall rules, the organization can significantly reduce its attack surface and protect customer data from future breaches.

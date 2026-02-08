@@ -23,7 +23,8 @@ This document covers the hardening tools selected (NIST, MFA, Firewall rules) an
 ---
 
 ### 2. Cybersecurity Incident Report (Network Traffic Analysis)
-This technical report analyzes the DNS failure and the ICMP "port unreachable" errors on port 53.
+This report includes some of the better hardening tools youe¿ can use up to date
+
 
 <p align="center">
   <object data="./Cybersecurity%20incident%20report%20network%20traffic%20analysis%20(1).pdf" type="application/pdf" width="100%" height="600px">
